@@ -1,10 +1,85 @@
 .App {
   text-align: center;
 }
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.csvbg {
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: lavender;
+  /* background-image: linear-gradient(315deg, #fdfdfd00 0%, #dcecec13 74%); */
+  background-blend-mode: overlay;
+  overflow: hidden;
+}
+.csv_row {
+  padding: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* background-color: #dddd; */
+
+  /* background-image: linear-gradient(315deg, #fdfdfd00 0%, #dcecec13 74%); */
+  background-blend-mode: overlay;
+  overflow: hidden;
+}
+/* box shadow card */
+.cardNavbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: black;
+  color: white;
+  /* transition: 0.3s; */
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 1rem;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
+  background-color: #282c34;
+  color: #fff;
+
+  /* transform: scale(1.05) rotate(-1deg); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
